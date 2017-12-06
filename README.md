@@ -6,3 +6,6 @@
 
 ### 2.实现滑动效果
  dataZoom配置项用来设置滑动和放大缩小，type有两个值，'inside' 和 'slider'
+ 
+### 3.移动端滑动效果
+在项目中有一个类似keep的华东图标，单纯的通过echarts不能实现其功能所以通过给dom绑定touch事件来实现滑动的一系列操作，然后再重绘 echarts的canvas
